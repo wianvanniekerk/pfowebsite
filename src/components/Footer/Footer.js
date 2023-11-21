@@ -4,27 +4,28 @@ import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 function Footer() {
   return (
     <div>
-      <footer class="fixed_footer">
-        <div class="grid-container ">
-          <p class="content">Email: </p>
-          <p class="content">
+      <footer className="fixed_footer">
+        <div className="grid-container">
+          <p className="content">Email:</p>
+          <p className="content">
             South Africa Office: CSIR Site, Mering Naude Rd, Scientia 627 - Jr,
             Pretoria
           </p>
-          <p class="content">
+          <p className="content">
             North America Office: 6330 South Sandhill Road Las Vegas, NV 89120
           </p>
         </div>
-        <div class="makeIcon">
+        <div className="makeIcon">
           <a href="https://www.linkedin.com/company/precision-finops/">
-            <AiFillLinkedin size="2rem" color="white" />
+            <AiFillLinkedin size="2rem" />
           </a>
           <a href="https://www.linkedin.com/company/precision-finops/">
-            <AiOutlineMail size="2rem" color="white" />
+            <AiOutlineMail size="2rem" />
           </a>
         </div>
       </footer>
     </div>
   );
 }
+
 export default Footer;
