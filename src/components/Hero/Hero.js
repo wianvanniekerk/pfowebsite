@@ -11,9 +11,9 @@ function Hero() {
 
       <div class="hero__cnt">
         <div class="fade-in">
-          <img src="/images/latestLogo.png" />
+              <p>&lt&gt | Precision FinOps</p>
         </div>
-        <img src="/images/Custodians.png" width="auto" height="150" />
+        <p>Custodians of Logic</p>
       </div>
     </div>
   );
