@@ -13,7 +13,7 @@ function Hero() {
         <div class="fade-in">
           <img src="/images/latestLogo.png" />
         </div>
-        <img src="/images/Custodians.png" width="auto" height="150" />
+        <img src="/images/Custodians.png" width="auto" height="150" class="simg" />
       </div>
     </div>
   );
