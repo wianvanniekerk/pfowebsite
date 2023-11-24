@@ -10,7 +10,13 @@ function Footer() {
 				<h4>Contact</h4>
 				<div class="cgroup">
 					<div class="singleitem">
-						info@pfosolutions.com
+						<a href="mailto:info@pfosolutions.com">info@pfosolutions.com</a>
+					</div>
+					<div class="singleitem">
+						<a href="tel:+27 (82) 852-1990">+27 (82) 852-1990</a>
+					</div>
+					<div class="singleitem">
+						<a href="tel:+27 (62) 648-7420">+27 (62) 648-7420</a>
 					</div>
 					
 					<div class="singlesocial">
