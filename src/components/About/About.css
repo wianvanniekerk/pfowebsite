@@ -88,11 +88,7 @@
   text-decoration: none;
 }
 
-body {
-  display: grid;
-  height: 100vh;
-  place-items: center;
-}
+
 
 .mainImg {
   width: 100%;
