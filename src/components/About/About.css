@@ -329,7 +329,10 @@ body {
   .imgContainer {
     width: 90%;
   }
-
+	.responsive-cell-block.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12{
+		width: 100% !important;
+		display: block !important;
+	}
   .imgContainer {
         height: auto !important;
 		margin: 0px !important;
