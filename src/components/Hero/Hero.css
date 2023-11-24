@@ -33,6 +33,9 @@ img{
   animation: clip-hero-anim 1.25s cubic-bezier(0.29, 0.8, 0.8, 0.98);
   will-change: clip-path;
 }
+.hero__cnt img{
+	height:auto !important;
+}
 .hero__bg,
 .hero__cnt {
   align-self: center;
