@@ -92,16 +92,8 @@ img{
 .hero__cnt svg path {
   fill: #fff;
 }
-
-.hero__cnt p {
-  margin-bottom: 0t;
-  font-size: 4em !important;
-  text-transform: capitalize !important;
-  font-family: 'Sora', sans-serif !important;
-}
-
-.hero__cnt p.custodians {
-  font-size: 2.5em !important;
+.hero__cnt h1 {
+  margin-bottom: 0;
 }
 
 @keyframes fade-in {
