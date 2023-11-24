@@ -7,10 +7,11 @@
   margin-top: 50px;
   margin-left: 200px;
 }
-footer{
-	background-color:black;
-	color:white !important;
-	padding:60px 0px;
+.footernew{
+	background-color: black;
+	color: white !important;
+	padding: 60px 0px;
+	margin-top: 60px;
 }
 .fixed_footer {
   width: 100%;
@@ -31,7 +32,7 @@ footer{
 	gap: 22px;
 	grid-template-columns: repeat(2, 1fr);
 }
-.footer h4{
+.footernew h4{
 	color:white;
 	font-size:22px;
 	margin-top:0px;
@@ -43,6 +44,15 @@ footer{
 .footer-container{
 	width:92%;
 	margin:0px auto;
+}
+.singleitem{
+	margin-bottom:12px;
+}
+.footernew a{
+	color:white !important;
+}
+.singlesocial{
+	margin-top: 12px;
 }
 @media screen and (max-width: 768px) {
 	.footer-col{
