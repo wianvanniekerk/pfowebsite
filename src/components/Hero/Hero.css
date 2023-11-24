@@ -98,7 +98,15 @@ img{
 .hero__cnt h1 {
   margin-bottom: 0;
 }
-
+.simg{
+	width: 622px;
+    max-width: 100%;
+}
+@media screen and (max-width: 623px) {
+	.simg{
+		width: 313px;
+	}
+}
 @keyframes fade-in {
   from {
     opacity: 0;
