@@ -7,7 +7,11 @@
   margin-top: 50px;
   margin-left: 200px;
 }
-
+footer{
+	background-color:black;
+	color:white !important;
+	padding:60px 0px;
+}
 .fixed_footer {
   width: 100%;
   height: 350px;
@@ -35,6 +39,10 @@
 }
 .singleaddress{
 	margin-bottom:22px;
+}
+.footer-container{
+	width:92%;
+	margin:0px auto;
 }
 @media screen and (max-width: 768px) {
 	.footer-col{
