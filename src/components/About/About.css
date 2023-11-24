@@ -1,41 +1,91 @@
 .text-blk {
-  /* Existing styles remain unchanged */
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  line-height: 25px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .makeTextNice {
-  /* Existing styles remain unchanged */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.responsive-cell-block,
-.responsive-container-block,
-.responsive-container-block.bigContainer,
-.responsive-container-block.Container,
-.responsive-container-block.textSide,
-.responsive-container-block.textSide.width-70 {
+.responsive-cell-block {
   min-height: 75px;
+}
+
+.responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
   width: 100%;
-  padding: 10px;
-  margin: 0 auto;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: flex-start;
 }
 
 .responsive-container-block.bigContainer {
-  padding: 0 50px 50px 50px;
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
 }
 
 .responsive-container-block.Container {
   max-width: 1320px;
   justify-content: space-evenly;
   align-items: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
 }
 
 .a {
-  /* Existing styles remain unchanged */
+  box-shadow: inset 0 0 0 0 black;
+  color: black;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  margin-right: 5px;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.a:hover {
+  color: #fff;
+  box-shadow: inset 400px 0 0 0 black;
+}
+
+/* Presentational styles */
+.a {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
 }
 
 body {
@@ -46,12 +96,19 @@ body {
 
 .mainImg {
   width: 100%;
-  height: auto;
+  height: 800px;
   object-fit: cover;
 }
 
 .blueDots {
-  /* Existing styles remain unchanged */
+  position: absolute;
+  top: 150px;
+  right: 15%;
+  z-index: -1;
+  left: auto;
+  width: 80%;
+  height: 500px;
+  object-fit: cover;
 }
 
 .imgContainer {
@@ -61,14 +118,30 @@ body {
 
 .responsive-container-block.textSide {
   width: 48%;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  z-index: 100;
 }
 
 .text-blk.heading {
-  /* Existing styles remain unchanged */
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
 }
 
 .text-blk.subHeading {
-  /* Existing styles remain unchanged */
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
 }
 
 .cardImg {
@@ -79,52 +152,137 @@ body {
 .makeBold {
   font-weight: bold;
   font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .cardImgContainer {
-  /* Existing styles remain unchanged */
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgb(229, 229, 229);
+  border-right-color: rgb(229, 229, 229);
+  border-bottom-color: rgb(229, 229, 229);
+  border-left-color: rgb(229, 229, 229);
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
 }
 
 .responsive-cell-block.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12 {
-  padding: 10px 15px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 0px;
 }
 
 .text-blk.cardHeading {
-  /* Existing styles remain unchanged */
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
 }
 
 .text-blk.cardSubHeading {
-  /* Existing styles remain unchanged */
+  color: black;
+  line-height: 22px;
 }
 
 #ixvck {
   margin-top: 60px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
 
 .redDots {
-  /* Existing styles remain unchanged */
+  position: absolute;
+  bottom: -350px;
+  right: -100px;
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  top: auto;
 }
 
 @media (max-width: 1024px) {
   .responsive-container-block.Container {
+    position: relative;
     justify-content: center;
   }
 
   .mainImg {
-    bottom: 0;
+    bottom: 0px;
+	height: auto;
+    width: 100%;
   }
 
   .imgContainer {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0px;
+    left: 0px;
     height: auto;
     width: 60%;
   }
 
   .responsive-container-block.textSide {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     margin-left: auto;
     width: 70%;
+  }
+
+  .responsive-container-block.Container {
+    flex-direction: column-reverse;
+  }
+
+  .imgContainer {
+    position: relative;
+    width: auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+
+  .responsive-container-block.textSide {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .responsive-container-block.Container {
+    flex-direction: row-reverse;
   }
 
   .responsive-container-block.Container {
@@ -142,24 +300,40 @@ body {
 
   .imgContainer {
     opacity: 0.8;
+  }
+
+  .imgContainer {
     height: 500px;
+  }
+
+  .imgContainer {
     width: 30px;
   }
 
   .responsive-container-block.Container {
     flex-direction: column-reverse;
+  }
+
+  .responsive-container-block.Container {
     flex-wrap: nowrap;
   }
 
   .responsive-container-block.textSide {
     width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
     margin-bottom: 20px;
+    margin-left: 0px;
   }
 
   .imgContainer {
     width: 90%;
-    height: 450px;
-    margin: 5px auto 0 auto;
+  }
+
+  .imgContainer {
+        height: auto !important;
+		margin: 0px !important;
+		width: 100% !important;
   }
 
   .redDots {
@@ -176,7 +350,6 @@ body {
   .imgContainer {
     position: static;
     height: 450px;
-    width: 100%;
   }
 
   .mainImg {
@@ -190,25 +363,37 @@ body {
 
   .blueDots {
     width: 100%;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
     bottom: auto;
     right: auto;
   }
 
-  .responsive-container-block.textSide {
-    margin: 0;
+  .imgContainer {
     width: 100%;
   }
 
+  .responsive-container-block.textSide {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
   .responsive-container-block.Container {
-    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     overflow-x: visible;
     overflow-y: visible;
   }
 
   .responsive-container-block.bigContainer {
-    padding: 10px 20px 0 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding: 0 30px 0 30px;
   }
 
   .redDots {
@@ -226,26 +411,40 @@ body {
   }
 
   .responsive-container-block.textSide {
-    margin: 40px 0 50px 0;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
   }
 
   .imgContainer {
-    margin: 5px auto 0 auto;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 100%;
+    position: relative;
   }
 
   .explore {
-    padding: 17px 0;
+    padding-top: 17px;
+    padding-right: 0px;
+    padding-bottom: 17px;
+    padding-left: 0px;
     width: 100%;
   }
 
   #ixvck {
     width: 90%;
     margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     font-size: 15px;
   }
 
   .blueDots {
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     height: 80%;
     top: 10%;
@@ -253,15 +452,20 @@ body {
 
   .text-blk.cardHeading {
     font-size: 16px;
+    margin-top: 0px;
+    margin-right: 0px;
     margin-bottom: 8px;
+    margin-left: 0px;
     line-height: 25px;
   }
 
   .responsive-cell-block.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12 {
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
   }
 }
-
 hr.new4 {
   border: 1px solid red;
 }
