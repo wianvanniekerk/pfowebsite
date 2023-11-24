@@ -21,7 +21,7 @@ function About() {
           <div class="responsive-container-block textSide">
             <p class="text-blk subHeading">
               <a class="a" href="">
-                Precesion FinOps (PFO)
+                Precision FinOps (PFO)
               </a>
               is a leading provider of innovative Microsoft Dynamics solutions
               for businesses seeking to optimize their operations and drive
