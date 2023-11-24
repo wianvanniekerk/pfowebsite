@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 function Footer() {
   return (
-    <div>
+    <div class="footer">
       <div class="footer-container">
 		<div class="footer-col">
 			<div>
