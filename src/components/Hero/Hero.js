@@ -12,8 +12,8 @@ function Hero() {
       <div class="hero__cnt">
         <div class="fade-in">
           <img src="/images/latestLogo.png" />
-          <img src="/images/Custodians.png" width="auto" height="150" />
-        </div>       
+        </div>
+        <img src="/images/Custodians.png" width="auto" height="150" />
       </div>
     </div>
   );
