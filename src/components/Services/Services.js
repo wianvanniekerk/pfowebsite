@@ -42,7 +42,7 @@ function Services() {
               managing and maintaining their Dynamics 365 environment. It
               encompasses technical support, troubleshooting, updates,
               performance monitoring, security, and ongoing assistance to ensure
-              the smooth operation of the Dynamics 365 platform
+              the smooth operation of the Dynamics 365 platform.
             </p>
           </div>
         </div>
